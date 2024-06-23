@@ -75,7 +75,7 @@ app.post('/products',async(req,res)=>{
 })
 
 
-mongoose.connect('mongodb+srv://varun-root:Jfemihnkrtq1234@nodeapitutorial.eowmhms.mongodb.net/Node-API-Varun?retryWrites=true&w=majority&appName=NodeAPITutorial')
+mongoose.connect('mongodb+srv://<username>:<password>@nodeapitutorial.eowmhms.mongodb.net/Node-API-Varun?retryWrites=true&w=majority&appName=NodeAPITutorial')
 .then(()=>{
     console.log('Connected to MongoDB')
     app.listen(3000, ()=>{
